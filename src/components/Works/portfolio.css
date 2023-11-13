@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: #9BA4B4;
+    align-items: center;
+}
+#portfolio #header__p{
+    margin-top:10%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+#port__content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    
+}
+#port__filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#filter__div{
+    padding: 10px;
+}
+.normal {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209,213,219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .7rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .50rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .normal:hover {
+    background-color: rgb(249,250,251);
+  }
+  
+  .normal:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .normal:focus-visible {
+    box-shadow: none;
+  }
+  .active {
+    background-color: #9BA4B4;
+    border: 1px solid rgb(209,213,219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .7rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .50rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .active:hover {
+    background-color: #9BA4B4;
+  }
+  
+  .active:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .active:focus-visible {
+    box-shadow: none;
+  }
+  .button-4 {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+  
+  .button-4:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  .button-4:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  .button-4:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  .button-4:focus {
+    outline: 1px transparent;
+  }
+  
+  .button-4:before {
+    display: none;
+  }
+  
+  .button-4:-webkit-details-marker {
+    display: none;
+  }
+ 
+ 
+@media screen and (min-width: 756px){
+    #port__content{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #portfolio #header__p{
+        margin-left: 3%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width:576px){
+    #portfolio #header__p{
+        margin-left: 3%;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 756px){
+    #portfolio #header__p{
+        margin-left: 3%;
+    }
+}
+

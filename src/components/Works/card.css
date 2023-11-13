@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#front__content{
+    background-color: #F1F6F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:250px;
+    max-height: 80%;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 35px;
+    margin-right: 10px;
+    
+}
+#front__content img{
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    position: relative;
+    height: 151px;
+}
+#front__content #title{
+    margin-top: 5px;
+    font-size: 14px;
+}
+#front__content #desc{
+    margin-top: 10%;
+}
+
+#back__content{
+   width:250px;
+   max-height: 80%;
+   background-color:#F1F6F9;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   border-radius: 8px;
+   margin-top: 10%;
+   margin-left: 35px;
+   margin-right: 10px;
+}
+#div__button{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 40%;
+}
+#back {
+    background-color: #F1F6F9;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  #back:hover,
+  #back:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+  }
+  
+  #back:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  #back:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+  }
+#git__hub{
+    margin-top: 25%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+#git__id{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#git__hub i{
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 3px;
+    color: black;
+}
+#code,#deployment{
+    padding: 10px;
+    margin-top: -10px;
+}
+#eye{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16%;
+    margin-left: 30px;
+}
+#eye__id{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#eye i{
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 3px;
+    color: black;
+}
+
+
+#view {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  #view:hover,
+  #iew:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+  }
+  
+  #view:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  #view:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+  }
+

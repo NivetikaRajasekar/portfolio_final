@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+}
+#home__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F6F9;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#profile__content{
+    margin-top: 50%;
+    margin-bottom: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+#hi__content{
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+#name{
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+#typing__header{
+    margin-bottom: 8px;
+}
+#typing__header #i__am{
+    font-size: 1.3rem;
+}
+#typing{
+    color:#000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#social__media{
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+#linked-in, #insta, #git, #twitter{
+    border: 1px solid #000000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+#insta, #git, #twitter{
+    margin-left: 17px;
+}
+#social__media a i{
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left: 9px;
+    margin-top: 5px;
+    color: #000000;
+}
+#linked-in:hover, #insta:hover, #git:hover, #twitter:hover{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+#social__media a i:hover{
+    color: #000000;
+}
+/* for desktop*/
+@media screen and (min-width:576px){
+    #home__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    #profile__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15%;
+        margin-bottom: 12%;
+    }
+    #hi__content{
+        font-size: 3rem;
+    }
+    #name{
+        font-size: 3.5rem;
+    }
+    #typing{
+       font-size: 2rem;
+    }
+    #typing__header #i__am{
+        font-size: 1.5rem;
+    }
+}
+/* home works correctly for all lengths*/
